@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo img{
+    height: 80px;
+}
+.navItems ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    
+}
+.navIcons ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+
+
+
+
+/* hero section  */
+
+.heroSection{
+    /* display: flex; */
+    height: 500px;
+    position: relative;
+
+}
+.heroSection img{
+    z-index: -1;
+}
+.heroSectionText{
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    
+}
+
+.heroSectionText{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 243, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding: 0% 50px;
+
+}
+.heroSectionText h3{
+    font-size: 16px;
+    font-weight: 6d00;
+    letter-spacing: 3px;
+    line-height: 70px;
+
+}
+.heroSectionText h2{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 70px;
+    color: rgb(184, 142, 47);
+
+}
+.heroSection p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.heroSectionText button{
+    height: 50px ;
+    width: 150px;
+    background-color: rgb(184, 142, 47);
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Range Section  */
+
+
+.range{
+    text-align: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: ;
+
+    
+}
+.range h2{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.range p{
+    font-size: 18px;
+    color: #666666;
+}
+.rangeItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.rangeItem{
+    width:30%;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.rangeItem img{
+    height: 450px;
+    width: 80%;
+    border-radius: 8px;
+}
